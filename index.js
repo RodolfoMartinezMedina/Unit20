@@ -3,8 +3,8 @@ var AWS = require('aws-sdk');
 AWS.config.update({
  region: 'us-east-2',
  endpoint: 'http://dynamodb.us-east-2.amazonaws.com',
- accessKeyId: 'AKIAJWGQKF2E3T4WLYKA',
- secretAccessKey: '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'
+ accessKeyId: 'asdfasdfasdfads',
+ secretAccessKey: 'dafdsfasdf'
 });
 
 exports.handler = (event, context, callback) => {
